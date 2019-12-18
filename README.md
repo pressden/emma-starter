@@ -45,7 +45,6 @@ wp core install --prompt=title,url,admin_user,admin_email
 4. Install commonly used plugins and activate the child theme and desired plugins.
 
 ```
-mkdir wp-content/plugins
 wp plugin install ninja-forms redirection wordpress-seo
 wp plugin activate redirection wordpress-seo
 wp theme activate emma-child
