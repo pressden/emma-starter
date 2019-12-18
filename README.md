@@ -23,6 +23,7 @@ git clone https://github.com/pressden/emma-starter.git .
 git clone https://github.com/pressden/emma.git wp-content/themes/emma
 npm install --prefix wp-content/themes/emma-child/
 wp core download --skip-content
+
 ```
 
 2. Create a unique wp-config.php file for this project. This command will prompt for required
@@ -30,6 +31,7 @@ information.
 
 ```
 wp config create --prompt=dbname,dbuser,dbpass
+
 ```
 
 3. Install WordPress. This command will prompt for required information and generate a unique
@@ -37,12 +39,17 @@ password for the admin user. Be sure to copy it somewhere safe.
 
 ```
 wp core install --prompt=title,url,admin_user,admin_email
-```
-
-4. Activate the Emma Child theme.
 
 ```
+
+4. Install commonly used plugins and activate the child theme and desired plugins.
+
+```
+mkdir wp-content/plugins
+wp plugin install ninja-forms redirection wordpress-seo
+wp plugin activate redirection wordpress-seo
 wp theme activate emma-child
+
 ```
 
 Enjoy!
