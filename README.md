@@ -1,7 +1,7 @@
 Emma Starter
 ===
 
-Use the Emma Starter repository quickly spin up WordPress + Emma Child development environment.
+Use the Emma Starter repository quickly spin up a WordPress + Emma Child development environment.
 
 **NOTE:** When running a Virtual Machine (VM) based local development environment, it is
 recommended to SSH into the VM to run the **Getting Started** commmands.
@@ -21,7 +21,6 @@ To get started, change directories to the target directory where WordPress will 
 ```
 git clone https://github.com/pressden/emma-starter.git .
 git clone https://github.com/pressden/emma.git wp-content/themes/emma
-npm install --prefix wp-content/themes/emma-child/
 wp core download --skip-content
 
 ```
@@ -48,6 +47,30 @@ wp core install --prompt=title,url,admin_user,admin_email
 wp plugin install ninja-forms redirection wordpress-seo
 wp plugin activate redirection wordpress-seo
 wp theme activate emma-child
+
+```
+
+5. Change to the child theme directory, install and start the frontend runner via NPM.
+
+```
+cd wp-content/themes/emma-child/
+npm install
+npm run watch
+
+```
+
+**ALL DONE!** The WordPress + Emma Child environment is ready for futher custom development.
+
+Changing Origins
+----------------
+After completing the `Getting Started` steps above it is important to change the origin URL
+to a project repository. This will ensure all commits are pushed to the correct repository.
+
+See below for a `GITHUB` example:
+
+```
+// GITHUB EXAMPLE
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 
 ```
 
