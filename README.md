@@ -59,7 +59,7 @@ npm run watch
 
 ```
 
-**ALL DONE!** The WordPress + Emma Child environment is ready for futher custom development.
+**ALL DONE!** The WordPress + Emma Child environment is ready for custom development.
 
 Changing Origins
 ----------------
