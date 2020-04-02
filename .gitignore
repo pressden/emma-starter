@@ -30,13 +30,20 @@ wp-content/cache/supercache/*
 .smushit-status
 .gitattributes
 _wpeprivate*
+.wpe-devkit/*
+.wpe-pull-ignore
+.wpe-push-ignore
+.wpengine-conf/*
+apple-touch-icon-precomposed.png
+apple-touch-icon.png
+favicon.ico
 wp-content/object-cache.php
-wp-content/mu-plugins/mu-plugin.php
-wp-content/mu-plugins/slt-force-strong-passwords.php
-wp-content/mu-plugins/stop-long-comments.php
-wp-content/mu-plugins/force-strong-passwords*
-wp-content/mu-plugins/wpengine-common*
+wp-content/mu-plugins/*
 wp-content/mysql.sql
+
+# webp express
+wp-content/webp-express/*
+wp-content/themes/.htaccess
 
 # wp core (as of 4.9.5)
 /db-config.php
