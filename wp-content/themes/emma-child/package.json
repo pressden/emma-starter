@@ -2,7 +2,7 @@
   "name": "emma-child",
   "version": "1.0.00",
   "repository": "https://github.com/pressden/emma.git",
-  "description": "Emma theme description.",
+  "description": "Emma child theme description.",
   "main": "index.js",
   "browserslist": [
     "> 2%",
