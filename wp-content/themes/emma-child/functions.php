@@ -7,7 +7,7 @@
  * @package Emma Child
  */
 
-function emma_child_color_palette( $colors ) {
+function emma_child_editor_color_palette_filter( $colors ) {
   //overrides various registered colors with new hex values
   //$colors['primary']['color'] = '#0073aa';
   //$colors['primary-support']['color'] = '#D4F9F8';
@@ -19,4 +19,4 @@ function emma_child_color_palette( $colors ) {
 
   return $colors;
 }
-add_filter ( 'emma_editor_color_palette', 'emma_child_color_palette' );
+add_filter ( 'emma_editor_color_palette', 'emma_child_editor_color_palette_filter' );
