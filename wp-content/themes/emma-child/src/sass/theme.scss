@@ -1,10 +1,12 @@
-// Emma Child SASS Loader
+/*--------------------------------------------------------------
+# Emma Child - Theme Styles
+--------------------------------------------------------------*/
 
 // Load child theme variables first (Emma variables will be overridden)
 @import "variables";
 
 // Load core styles from the Emma theme
-@import "../../../emma/src/sass/emma";
+@import "../../../emma/src/sass/emma-theme";
 
 // Load override styles for Gutenberg blocks
 @import "block-overrides";

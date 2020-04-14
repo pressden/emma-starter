@@ -1,9 +1,9 @@
 {
   "name": "emma-child",
-  "version": "1.0.00",
+  "version": "1.0.21",
   "repository": "https://github.com/pressden/emma.git",
-  "description": "Emma child theme description.",
-  "main": "index.js",
+  "description": "Emma Child is a custom child theme based on Emma.",
+  "main": "theme.js",
   "browserslist": [
     "> 2%",
     "ie > 9"
@@ -14,7 +14,7 @@
     "build": "webpack --mode=production --progress --hide-modules --config webpack/prod.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "D.S. Webster",
+  "author": "D.S. Webster | Eric Michel",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@babel/core": "^7.9.0",
