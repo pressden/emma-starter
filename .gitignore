@@ -2,6 +2,12 @@
 wp-content/themes/twenty*
 node_modules
 
+# IDE
+.history
+
+# Distribution
+wp-content/themes/emma-child/dist/
+
 # externals
 wp-content/themes/emma
 
