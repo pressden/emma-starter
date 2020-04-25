@@ -1,6 +1,10 @@
 # custom rules
 wp-content/themes/twenty*
 node_modules
+wp-content/themes/emma-child/dist
+
+# IDE
+.history
 
 # externals
 wp-content/themes/emma
