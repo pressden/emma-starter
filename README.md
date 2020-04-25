@@ -74,4 +74,15 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 
 ```
 
+Tracking Changes in `dist`
+--------------------------
+The `emma-starter` repository ignores `wp-content/themes/emma-child/dist` by default.
+
+To track revisions in the `dist` directory, remove this line from `.gitignore`:
+
+```
+wp-content/themes/emma-child/dist
+
+```
+
 Enjoy!
