@@ -2,5 +2,8 @@
 # Emma Child - Admin Styles
 --------------------------------------------------------------*/
 
+// Load child theme variables first (Emma variables will be overridden)
+@import "variables";
+
 // Load core styles from the Emma admin
 @import "../../../emma/src/sass/emma-admin";
