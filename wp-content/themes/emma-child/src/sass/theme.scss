@@ -17,9 +17,9 @@
 // Load styles for Woocommerce
 @import "woocommerce";
 
-// Load child theme styles last (Emma styles will be overridden)
-@import "child-theme";
-
 // Load frontend styles from Emma plugins (uncomment to activate).
 // @import "../../../../plugins/emma-slider/sass/slider-frontend";
 // @import "../../../../plugins/emma-dialog/sass/dialog-frontend";
+
+// Load child theme styles last (Emma styles will be overridden)
+@import "child-theme";
