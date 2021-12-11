@@ -1,7 +1,7 @@
 # custom rules
 wp-content/themes/twenty*
 node_modules
-wp-content/themes/emma-child/dist
+wp-content/themes/emma-child
 
 # IDE
 .history
