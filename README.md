@@ -16,11 +16,12 @@ To get started, change directories to the target directory where WordPress will 
 **Example:** `cd my/target/directory`
 
 1. From within the target directory run the following commands to download `Emma Starter`,
-`Emma` and `WordPress` to the target directory.
+`Emma`, `Emma Child` and `WordPress` to the target directory.
 
 ```
 git clone https://github.com/pressden/emma-starter.git .
 git clone https://github.com/pressden/emma.git wp-content/themes/emma
+git clone https://github.com/pressden/emma-child.git wp-content/themes/emma-child
 wp core download --skip-content
 
 ```
@@ -74,14 +75,14 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 
 ```
 
-Tracking Changes in `dist`
+Tracking Changes in `emma-child`
 --------------------------
-The `emma-starter` repository ignores `wp-content/themes/emma-child/dist` by default.
+The `emma-starter` repository ignores `wp-content/themes/emma-child` by default.
 
-To track revisions in the `dist` directory, remove this line from `.gitignore`:
+To track revisions in the `emma-child` directory, remove this line from `.gitignore`:
 
 ```
-wp-content/themes/emma-child/dist
+wp-content/themes/emma-child
 
 ```
 
