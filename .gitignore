@@ -2,6 +2,7 @@
 wp-content/themes/twenty*
 node_modules
 wp-content/themes/emma-child
+wp-content/fonts
 
 # IDE
 .history
